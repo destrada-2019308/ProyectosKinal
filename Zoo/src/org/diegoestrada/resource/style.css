@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 2em;
+    position: fixed;
+    z-index: 110;
+    top: -10px;
+}
+
+.header nav {
+    background: transparent;
+    color: #fff;
+    height: 3em;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav__li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.container {
+    overflow-x: hidden;
+}
+
+.container img {
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.nav2 .ul .li a img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav2 .ul {
+    list-style-type: none;
+}
+
+.header2 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    z-index: 20;
+}
+
+.div {
+    position: relative;
+    z-index: 20;
+    bottom: 45rem;
+    padding: 15px;
+}
+
+.div h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-family: Tahoma;
+    font-size: 2em;
+}
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 21;
+    bottom: 45rem;
+}
+
+.div2 .boton {
+    background-color: #44ce5e;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px ;
+    transition: .5s;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+}
+
+.boton:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.div__h2 {
+    padding: 20px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.container2 img {
+    position: relative;
+    z-index: 2;
+    top: -29.9em;
+}
+
+.div__2 h2 {
+    position: relative;
+    z-index: 14;
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-family: Tahoma;
+    font-size: 3em;
+    bottom: 4em;
+}
+
+.div__contenedor {
+    display: flex;
+    position: absolute;
+    z-index: 13;
+    margin: 30px;
+    top: 105em;
+}
+
+.div__contenedor img  {
+    width: 20rem;
+    height: 20rem;
+}
+
+.div__img img{
+    margin: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.div__img img:hover {
+    transform: scale(.8);
+    transition-duration: .5s;
+}
+
+#jugar {
+    margin-top: 2em;
+}
+
+#tortuga {
+    margin-top: 5em;
+}
+
+#oso_hormi {
+    margin-top: 2em;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-family: Tahoma;
+    font-size: 2em;
+    top: 20rem;
+}
+
+.div__img a {
+    text-decoration: none;
+}
