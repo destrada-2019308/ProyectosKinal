@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: #efefef;
+    padding: 0;
+    background-color: #000;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -35,21 +36,27 @@ body {
     list-style-type: none;
 }
 
-.container {
-    overflow-x: hidden;
-}
-
 .container img {
     position: relative;
     z-index: 1;
     object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .nav2 .ul .li a img{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     padding: 5px;
     margin: 5px;
+}
+
+.header__div {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    width: 10em;
+    height: 75px;
 }
 
 .nav2 .ul {
@@ -66,7 +73,7 @@ body {
 .div {
     position: relative;
     z-index: 20;
-    bottom: 45rem;
+    bottom: 36em;
     padding: 15px;
 }
 
@@ -83,7 +90,7 @@ body {
     justify-content: center;
     position: relative;
     z-index: 21;
-    bottom: 45rem;
+    bottom: 35em;
 }
 
 .div2 .boton {
@@ -112,10 +119,12 @@ body {
     text-shadow: 5px 5px 10px black;
 }
 
-.container2 img {
+.container2 img{
+    width: 100%;
+    height: auto;
     position: relative;
     z-index: 2;
-    top: -29.9em;
+    top: -66em;
 }
 
 .div__2 h2 {
@@ -131,10 +140,16 @@ body {
 
 .div__contenedor {
     display: flex;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     z-index: 13;
     margin: 30px;
-    top: 105em;
+    bottom: 10em;
+}
+
+.div__img {
+    display: inline-block;
 }
 
 .div__contenedor img  {
@@ -145,7 +160,7 @@ body {
 .div__img img{
     margin: 10px;
     padding: 10px;
-    transition: .5s;
+    transition-duration: .5s;
 }
 
 .div__img img:hover {
@@ -176,4 +191,47 @@ h3 {
 
 .div__img a {
     text-decoration: none;
+}
+
+.footer {
+    background-color: #364552;
+    padding: 3em;
+    color: #fff;
+    position: relative;
+    z-index: 6;
+}
+
+.footer img {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+}
+
+.footer p {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.footer a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+.footer div {
+    display: block;
+}
+
+.footer__div {
+    display: flex;
+    text-align: center;
+    height: 10%;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
 }
