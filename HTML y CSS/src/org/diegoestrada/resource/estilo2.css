@@ -1,0 +1,35 @@
+div {
+    background-color: chocolate;
+    display: block;   
+    width: 120px;
+    height: 120px;
+    font-size: 25px;
+    font-family: Georgia;
+    margin: 5px;
+}
+
+.objeto1 {
+    background-color: red;
+    opacity: .5;
+}
+
+.objeto2 {
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.objeto3 {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    z-index: 1;
+}
+
+.objeto4 {
+    background-color: yellow;
+    position: relative;
+    z-index: 10;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Más contenido de CSS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../resource/estilo2.css">
+</head>
+<body>
+    <a href="../main/index.html">Regresar</a>
+    <h2>Forms</h2>
+            <!-- Envia el formulario a la ruta que este en el action usando el metodo que le dieramos
+            sabiendo que existen dos tipos de metodos uno GET y el otro POST -->
+    <!-- <form action="ruta " method="post">-->
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombreUsuario" id="nombre" placeholder="Nombre" required=""">
+        <label for="password">Password</label>
+        <input type="password" name="contrasena" id="password" placeholder="Password" required="">
+        <label for="number">Numero</label>
+        <input type="number" name="numero" id="number" placeholder="Número" required="">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required="">
+        <label for="si">Si</label>
+        <input type="checkbox" name="cajita" id="si" required="">
+        <label for="archivos">Suba su archivo aquí</label>
+        <input type="file" name="archivos" id="archivos">
+        <!--<input type="color">
+        <input type="range" min ="1" max="5">
+        <input type="date">
+        <input type="time">
+        <input type="button" value="Boton">-->
+        <textarea readonly >Hola juan el Pepe</textarea>
+        <textarea></textarea>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo Submit</button>
+        <input type="submit" name="Enviar">
+    </form>
+    <div class="objeto1">Caja 1</div>
+    <div class="objeto2">Caja 2</div>
+    <div class="objeto3">Caja 3</div>
+    <div class="objeto4">Caja 4</div>
+</body>
+</html>
