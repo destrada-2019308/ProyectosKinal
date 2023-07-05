@@ -168,13 +168,15 @@ body {
 }
 
 .footer__section {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .footer #correo {
     margin: 25px;
-    width: 20em;
+    width: 25em;
     text-align: center;
 }
 
@@ -187,7 +189,6 @@ body {
 .footer #telefono {
     text-align: center;
     margin: 25px 0 0 0;
-    float: right;
     width: 25em;
 }
 
