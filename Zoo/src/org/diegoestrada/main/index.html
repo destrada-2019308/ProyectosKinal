@@ -13,15 +13,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" href="../image/zoo.png">
     <link rel="stylesheet" href="../resource/style.css" type="text/css">
+
 </head>
 <body id="inicio">
+    <div class="container">
     <header class="header">
             <div class="header__div"> 
                 <a href="index.html">
                         <img src="../image/zoologoblanco.png" alt="zoologo.png">
                 </a>
             </div>
-        <nav class="header__nav">
+            <div class="abrir__btn">
+                <button id="abrir" class="menu navmn">
+                    <div class="divi"></div>
+                    <div class="divi"></div>
+                    <div class="divi"></div>
+                </button>
+            </div>
+        <nav class="header__nav" id="nav">
+            <button id="cerrar" class="nav__menu navmn">
+                <div class="divi"></div>
+                    <div class="divi"></div>
+                    <div class="divi"></div>
+            </button>
             <div class="nav__div">
                 <ul class="nav__ul">
                     <li class="nav__li"><a href="#inicio">Inicio</a></li>
@@ -60,15 +74,16 @@
             </div> -->
         </div>
     </section>
-    <div class="container">
-        <img src="../image/gato.png" alt="gato.png">
-    </div>
+    
+        
+
     <div id="oso"  class="container__h2">
         <h2 class=" h2" >Novedades y más</h2>
     </div>
     <div class="container__div">
         Fauna urbana en nuestro zoológico único y exclusivo para ti.
     </div>
+</div>
     <!-- Articulo para los animales en peligro de extinsión -->
     <article class="articulo">
             <div class="article__div" id="ajolote">
@@ -137,5 +152,6 @@
         </section>
         <p>Copyright - 2023 Fundación Kinal</p>
     </footer>
+    <script src="../js/scrip.js"></script>
 </body>
 </html>
